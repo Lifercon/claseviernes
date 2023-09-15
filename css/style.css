@@ -1,0 +1,39 @@
+/* tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
+/* selector universal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* selector de etiqueta */
+h1 {
+    font-family: 'roboto', sans-serif;
+}
+/* selector por id */
+#word_one{
+    font-size: 30px;
+    color: blueviolet;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#list_options{
+    border: 5px solid rgb(147, 214, 231);
+    margin: 10px;
+    border-radius: 10px;
+}
+/* selector por clase */
+.word_group{
+    background-color: rgb(130, 130, 174);
+    color: #fff;
+    margin: 10px;
+}
+/* selector por atributo []*/
+[disabled]{
+    background-color: hsl(180, 50%, 72%);
+}
+/* pseudoclases */
+.word_group:hover{
+    background-color: bisque;
+    padding: 5px;
+}
