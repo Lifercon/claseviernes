@@ -24,8 +24,8 @@ h1 {
 }
 /* selector por clase */
 .word_group{
-    background-color: rgb(130, 130, 174);
-    color: #fff;
+    background-color: rgb(206, 188, 221);
+    color: #070808;
     margin: 10px;
 }
 /* selector por atributo []*/
@@ -34,6 +34,58 @@ h1 {
 }
 /* pseudoclases */
 .word_group:hover{
-    background-color: bisque;
+    background-color: rgb(147, 224, 218);
     padding: 5px;
+}
+#title_box{
+    color: rgb(45, 16, 46);
+    font-family: sans-serif;
+    background-color: rgb(196, 132, 216);
+    /* margin-bottom: 10px; */
+    /* margin: 10px 0 10px 0; */
+    margin: 10px 5px;
+    text-align: right;
+    text-transform: lowercase;
+    word-spacing: 20;
+    letter-spacing: 10px;
+    /* padding: 20px; */
+    padding: 0 20px 0 0;
+    border: 5px double #070808 ;
+    border-radius: 10px;
+    -webkit-box-shadow: 181px -159px 274px 159px rgba(133,81,133,1);
+    -moz-box-shadow: 181px -159px 274px 159px rgba(133,81,133,1);
+    box-shadow: 181px -159px 274px 159px rgba(133,81,133,1);
+    font-size: 30px;
+    
+}
+#box_fhater{
+    background-color: #070808;
+    width: 50%;
+    height: 200px;
+    background-image: url(https://media.admagazine.com/photos/61eb22cb9b19d943aa117b30/master/w_1600%2Cc_limit/Girasol.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+/* aplicando media queris al sitio web */
+@media(min-width:800px) and (max-width:1200px){
+    body{
+        background-color: rgb(222, 179, 235);
+    }
+    h1{
+        text-align: right;
+    }
+    a{
+        color: antiquewhite;
+        font-size: 50px;
+        padding: 20px;
+    }
+}
+@media (max-width:799px){
+    body{
+        background-image: url(https://media.admagazine.com/photos/61eb22cb9b19d943aa117b30/master/w_1600%2Cc_limit/Girasol.jpg);
+        background-position: center ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
 }
